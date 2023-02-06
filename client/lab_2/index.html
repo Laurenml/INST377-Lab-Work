@@ -7,35 +7,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <header><h1>Lauren's INST 377 Labs </h1></header>
-    <div> 
-      <div><h3>Album Names </h3></div>
-      <ol>
-        <li> Kendrick Lamar - Mr. Morale and the Big Steppers </li>
-        <li> Metro Boomin - Heroes & Villians </li>
-        <li> Lil Yachty - Let's Start Here. </li>
-        <li> Baby Keem - The Melodic Blue </li>
-        <li> Future - I NEVER LIKED YOU </li>
-      </ol>
-      <div><h3> Image Carousel</h3></div>
-      <div>
-        <img src="images/mochi.jpg"/>
-        <img src='images/mochi.gif'/>
-        <img src='images/mochi.png'/>
-        <img src='images/mochi.svg'/>
-      </div>
-    </div>Above is four images of a cartoon mochi character.</div>
-    <footer><div>GitHub: Laurenml <a href="http://github.com/Laurenml" target="_blank" rel="noopener noreferrer">UMD INST 377</a></footer>
-      <div></footer>
+    <div class="wrapper" >
+    <header class = "header"><h1>Lauren's INST 377 Labs </h1></header>
+    <div class = "container">
+    <div class = "left_section box">
+        <h2>Album Names </h2> 
+        <ol> <div class = "box" >
+            <li> Kendrick Lamar - Mr. Morale and the Big Steppers </li>
+            <li> Metro Boomin - Heroes & Villians </li>
+            <li> Lil Yachty - Let's Start Here. </li>
+            <li> Baby Keem - The Melodic Blue </li>
+            <li> Future - I NEVER LIKED YOU </li>
+        </div></ol>
+    </div>
+    <div class = "right_section box ">
+      <div><h2> Image Carousel</h2></div>
+      <div class = "grid">
+        <img src="images/mochi.jpg" />
+        <img src='images/mochi.gif' />
+        <img src='images/mochi.png' />
+        <img src='images/mochi.svg' />
+    <div class = "box"> Above is four images of a cartoon mochi character.</div>
+    </div>
+<div></div>
+<div class = "footer"><p> GitHub: Laurenml <a href="http://github.com/Laurenml" target="_blank" rel="noopener noreferrer">UMD INST 377</a></p>
+</div>
 </body>
 </html>
 
-Hook it up to CSS by including style.css in the <head> tag
-
-Then add CSS class names to your HTML to make it look like the lab pictures.
-For example: <div class="selector">
-
-You should not need to edit the CSS to do this, only the HTML.
-
-Don't forget to add an actual set of image descriptions to your image carousel.
